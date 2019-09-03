@@ -13,8 +13,7 @@ module.exports = {
       ref: 'origin/master',
       repo: 'https://github.com/kendyl93/awsTest.git',
       path: '/home/ubuntu/awsTest',
-      'post-deploy':
-        'cd awsTest/current && npm install && pm2 startOrRestart ecosystem.config.js'
+      'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
 };
