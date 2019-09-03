@@ -11,7 +11,7 @@ module.exports = {
       host: 'ec2-18-216-56-193.us-east-2.compute.amazonaws.com',
       key: '~/.ssh/kendyl93.pem',
       ref: 'origin/master',
-      repo: 'https://github.com/kendyl93/awsTest.git',
+      repo: 'https://github.com/kendyl93/awsTest.git .',
       path: '/home/ubuntu/awsTest',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
