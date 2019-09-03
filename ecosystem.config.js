@@ -14,7 +14,7 @@ module.exports = {
       repo: 'https://github.com/kendyl93/awsTest.git',
       path: '/home/ubuntu/awsTest',
       'post-deploy':
-        'cd current && npm install && pm2 startOrRestart ecosystem.config.js'
+        'cd awsTest/current && npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
 };
